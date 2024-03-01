@@ -1,0 +1,32 @@
+:root{
+    --morado:#800080;
+    --azul:#0000ff;
+
+    --linea: 2px solid var(--morado);
+}
+main{
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(83, 170, 247, 0.425);
+    border: var(--linea);
+}
+
+h1{
+    font-family: 'letra1', Times, Serif;
+}
+@font-face {
+    font-family: 'letra1';
+    src: url(fonts/Butterfly_Kids/ButterflyKids-Regular.ttf);
+}
+
+p{
+    font-family: 'letra1', Times, Serif;
+    font-size: medium;
+}
+@font-face {
+    font-family: 'letra2';
+    src: url(fonts/Cormorant_Infant/CormorantInfant-Medium.ttf);
+}
+
