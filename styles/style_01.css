@@ -33,6 +33,7 @@ a{
 h1{
     font-family: 'letra1', Times, Serif;
     margin-left: 40px;
+    transition:all 5s;
 
     color: var(--morado);
 }
@@ -40,6 +41,7 @@ h1{
     font-family: 'letra1';
     src: url(fonts/Cormorant_Infant/CormorantInfant-Medium.ttf);
 }
+h1.trasla:hover{ transform:translate(10px,25px); }
 
 
 @media screen and (max-width: 800px){

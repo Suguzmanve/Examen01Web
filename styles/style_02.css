@@ -45,9 +45,30 @@ p{
     font-size: 20px;
     margin-left: 5px;
 }
+
+.gif{
+    height:320px;
+    width:100%;
+    position:relative;
+}
+
 @font-face {
     font-family: 'letra2';
     src: url(fonts/Cormorant_Infant/CormorantInfant-Bold.ttf);
+}
+
+h1.trasla:hover{ transform:translate(10px,25px);}
+
+img.agrandar:hover{ transform:scale(1.5); }
+
+.moverImagen{
+    animation: mover 1s linear 0s infinite alternate;
+}
+
+@keyframes mover{
+    0%{ top: 0px; left:0px; transform:rotate(0deg);}
+    50%{ top: 250px; left:0px; transform:rotate(0deg);}
+    100%{ top:500px; left:0px; transform:rotate(0deg);}
 }
 
 @media screen and (max-width: 800px){

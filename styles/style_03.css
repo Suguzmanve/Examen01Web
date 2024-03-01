@@ -49,6 +49,7 @@ p{
     font-family: 'letra2';
     src: url(fonts/Cormorant_Infant/CormorantInfant-Bold.ttf);
 }
+h1.trasla:hover{ transform:translate(10px,25px);}
 
 @media screen and (max-width: 800px){
     .contenedor{
